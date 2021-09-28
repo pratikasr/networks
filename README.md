@@ -1,1 +1,1 @@
-# Comdex Networks Details
+# Comdex Networks Detail
