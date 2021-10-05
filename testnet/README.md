@@ -71,12 +71,12 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 --website="XXXXXXXX"
 ```
 * Copy the contents of `${HOME}/.comdex/config/gentx/gentx-XXXXXXXX.json`.
-* Fork the [repository](https://github.com/comdex-official/comdex)
+* Fork the [repository](https://github.com/comdex-official/networks/)
 * Create a file `gentx-{{VALIDATOR_NAME}}.json` under the comdex-test-1/gentxs folder in the forked repo, paste the copied text into the file. Find reference file gentx-examplexxxxxxxx.json in the same folder.
 * Run `comdex tendermint show-node-id` and copy your nodeID.
 * Run `ifconfig` or `curl ipinfo.io/ip` and copy your publicly reachable IP address.
 * Create a file `peers-{{VALIDATOR_NAME}}.json` under the comdex-test-1/peers folder in the forked repo, paste the copied text from the last two steps into the file. Find reference file peers-examplexxxxxxxx.json in the same folder.
-* Create a Pull Request to the `master` branch of the [repository](https://github.com/comdex-official/comdex/)
+* Create a Pull Request to the `master` branch of the [repository](https://github.com/comdex-official/networks)
 >**NOTE:** the Pull Request will be merged by the maintainers to confirm the inclusion of the validator at the genesis. The final genesis file will be published under the file comdex-test-1/final_genesis.json.
 * Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of comdex-test-1/genesis.json.
 * Copy below node as `persistent_peers` or `seeds` in `${HOME}/.comdex/config/config.toml`
@@ -97,7 +97,7 @@ comdex start
 ```shell
 comdex init {{NODE_NAME}}
 ```
-* Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of comdex-test-1/genesis.json from the `master` branch of [repository](https://github.com/comdex-official/comdex).
+* Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of comdex-test-1/genesis.json from the `master` branch of [repository](https://github.com/comdex-official/networks).
 * Copy below node as `persistent_peers` or `seeds` in `${HOME}/.comdex/config/config.toml`
 ```shell
 4ecf80b5840ca5b1666d0f5d09f2df80a59fd85c@testnet1.comdex.one:26656
@@ -136,4 +136,4 @@ The binary can be downloaded from [here](https://github.com/comdex-official/comd
 The explorer for this chain is hosted [here](::TODO explorer)
 
 ## Genesis Time
-The genesis transactions sent before 1200HRS UTC 29th September 2021 will be used to publish the final_genesis.json at 1400HRS UTC 29th September 2021. 
+The genesis transactions sent before 1200HRS UTC 8th October 2021 will be used to publish the final_genesis.json at 1400HRS UTC 29th September 2021. 
