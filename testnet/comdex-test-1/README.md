@@ -83,7 +83,6 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 
 ```shell
 ```
-* 
 * Start node
 ```shell
 comdex start
