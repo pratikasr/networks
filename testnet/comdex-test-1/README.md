@@ -77,7 +77,7 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 * Run `ifconfig` or `curl ipinfo.io/ip` and copy your publicly reachable IP address.
 * Create a file `peers-{{VALIDATOR_NAME}}.json` under the comdex-test-1/peers folder in the forked repo, paste the copied text from the last two steps into the file. Find reference file peers-examplexxxxxxxx.json in the same folder.
 * Create a Pull Request to the `master` branch of the [repository](https://github.com/comdex-official/networks)
->**NOTE:** the Pull Request will be merged by the maintainers to confirm the inclusion of the validator at the genesis. The final genesis file will be published under the file comdex-test-1/final_genesis.json.
+>**NOTE:** the Pull Request will be merged by the maintainers to confirm the inclusion of the validator at the genesis. The final genesis file will be published under the file testnet/comdex-test-1/final_genesis.json.
 * Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of comdex-test-1/genesis.json.
 * Copy below node as `persistent_peers` or `seeds` in `${HOME}/.comdex/config/config.toml`
 
