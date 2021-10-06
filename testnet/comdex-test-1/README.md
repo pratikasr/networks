@@ -53,7 +53,7 @@ or
 
 ## Validator setup
 
-### Before genesis: NOW CLOSED
+### Before genesis: Accepting Genesis Validators
 
 * [Install](#installation-steps) comdex core application
 * Initialize node
@@ -82,7 +82,6 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 * Copy below node as `persistent_peers` or `seeds` in `${HOME}/.comdex/config/config.toml`
 
 ```shell
-4ecf80b5840ca5b1666d0f5d09f2df80a59fd85c@testnet1.comdex.one:26656
 ```
 * 
 * Start node
@@ -100,7 +99,6 @@ comdex init {{NODE_NAME}}
 * Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of testnet/comdex-test-1/genesis.json from the `master` branch of [repository](https://github.com/comdex-official/networks).
 * Copy below node as `persistent_peers` or `seeds` in `${HOME}/.comdex/config/config.toml`
 ```shell
-4ecf80b5840ca5b1666d0f5d09f2df80a59fd85c@testnet1.comdex.one:26656
 ```
 * Start node
 ```shell
