@@ -1,7 +1,7 @@
 # comdex-test-1
-> This is comdex test-net chain
-> GENESIS PUBLISHED
-> PEERS PUBLISHED
+> This is comdex testnet chain
+> GENESIS NOT PUBLISHED
+> PEERS NOT PUBLISHED
 
 1st testnet for comdex-official/comdex application.
 
@@ -34,7 +34,7 @@ git clone https://github.com/comdex-official/comdex.git
 * Checkout release/latest tag
 ```shell
 git fetch --tags
-git checkout master
+git checkout development
 ```
 * Install
 ```shell
