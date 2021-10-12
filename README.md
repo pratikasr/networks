@@ -1,7 +1,7 @@
-# Comdex Networks Detail
+# Comdex Network Details
 
-* **To join comdex's testnet chain** 
-  *[TestNet](https://github.com/comdex-official/networks/tree/main/testnet/comdex-test-1)
+* **Join comdex's testnet chain** 
+  * [TestNet](https://github.com/comdex-official/networks/tree/main/testnet/comdex-test-1)
 
 * **Main Net** 
-  *To Be announced soon
+  * To Be announced soon
