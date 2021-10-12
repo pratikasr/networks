@@ -31,10 +31,10 @@
 ```shell
 git clone https://github.com/comdex-official/comdex.git
 ```
-* Checkout release/latest tag
+* Checkout latest tag
 ```shell
 git fetch --tags
-git checkout development
+git checkout v0.0.1
 ```
 * Install
 ```shell
@@ -123,14 +123,14 @@ comdex tx staking create-validator \
 ```
 ## Version
 This chain is currently running on Comdex [v0.0.1](https://github.com/comdex-official/comdex/releases/tag/v0.0.1)
-Commit Hash: ::TODO
+Commit Hash: ::To be published
 >Note: If your node is running on an older version of the application, please update it to this version at the earliest to avoid being exposed to security vulnerabilities /defects.
 
 ## Binary
 The binary can be downloaded from [here](https://github.com/comdex-official/comdex/releases/tag/v0.0.1).
 
 ## Explorer
-The explorer for this chain is hosted [here](::TODO explorer)
+The explorer for this chain is hosted [here](::To be published)
 
 ## Genesis Time
-The genesis transactions sent before 1200HRS UTC 8th October 2021 will be used to publish the final_genesis.json at 1400HRS UTC 8th October 2021. 
+The genesis transactions sent before 1200HRS UTC 15th October 2021 will be used to publish the final_genesis.json at 1400HRS UTC 15th October 2021. 
