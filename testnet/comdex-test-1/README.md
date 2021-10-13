@@ -76,7 +76,7 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 * Run `comdex tendermint show-node-id` and copy your nodeID.
 * Run `ifconfig` or `curl ipinfo.io/ip` and copy your publicly reachable IP address.
 * Create a file `peers-{{VALIDATOR_NAME}}.json` under the comdex-test-1/peers folder in the forked repo, paste the copied text from the last two steps into the file. Find reference file peers-examplexxxxxxxx.json in the same folder.
-* Create a Pull Request to the `master` branch of the [repository](https://github.com/comdex-official/networks)
+* Create a Pull Request to the `main` branch of the [repository](https://github.com/comdex-official/networks)
 >**NOTE:** the Pull Request will be merged by the maintainers to confirm the inclusion of the validator at the genesis. The final genesis file will be published under the file testnet/comdex-test-1/final_genesis.json.
 * Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of testnet/comdex-test-1/genesis.json.
 * Copy below node as `persistent_peers` or `seeds` in `${HOME}/.comdex/config/config.toml`
@@ -95,7 +95,7 @@ comdex start
 ```shell
 comdex init {{NODE_NAME}}
 ```
-* Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of testnet/comdex-test-1/genesis.json from the `master` branch of [repository](https://github.com/comdex-official/networks).
+* Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of testnet/comdex-test-1/genesis.json from the `main` branch of [repository](https://github.com/comdex-official/networks).
 * Copy below node as `persistent_peers` or `seeds` in `${HOME}/.comdex/config/config.toml`
 ```shell
 ```
@@ -123,7 +123,7 @@ comdex tx staking create-validator \
 ```
 ## Version
 This chain is currently running on Comdex [v0.0.1](https://github.com/comdex-official/comdex/releases/tag/v0.0.1)
-Commit Hash: ::To be published
+Commit Hash: 92b28a8fa64d2b05e80456a8718d6b5ca516c999
 >Note: If your node is running on an older version of the application, please update it to this version at the earliest to avoid being exposed to security vulnerabilities /defects.
 
 ## Binary
