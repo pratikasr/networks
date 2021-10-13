@@ -33,12 +33,12 @@ git clone https://github.com/comdex-official/comdex.git
 ```
 * Checkout latest tag
 ```shell
+cd comdex
 git fetch --tags
 git checkout v0.0.1
 ```
 * Install
 ```shell
-cd comdex
 make all
 ```
 
