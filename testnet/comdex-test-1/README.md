@@ -80,8 +80,9 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 >**NOTE:** The Pull Request will be merged by the maintainers to confirm the inclusion of the validator at the genesis. The final genesis file will be published under the file testnet/comdex-test-1/final_genesis.json.
 * Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of testnet/comdex-test-1/genesis_final.json.
 * Copy below node as `persistent_peers` or `seeds` in `${HOME}/.comdex/config/config.toml`
-
+ 
 ```shell
+   TO BE PUBLISHED
 ```
 * Start node
 ```shell
@@ -98,6 +99,7 @@ comdex init {{NODE_NAME}}
 * Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of testnet/comdex-test-1/genesis.json from the `main` branch of [repository](https://github.com/comdex-official/networks).
 * Copy below node as `persistent_peers` or `seeds` in `${HOME}/.comdex/config/config.toml`
 ```shell
+   TO BE PUBLISHED
 ```
 * Start node
 ```shell
